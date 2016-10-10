@@ -184,3 +184,45 @@ h2.title {
     font: 700 16px/16px Lato, sans-serif;
     text-decoration: none;
 }
+
+footer {
+    background: #444444;
+}
+
+.footer-column {
+    width: 325px;
+    margin-top: 50px;
+}
+
+.footer-column h2 {
+    color: #88d5c2;
+    text-transform: uppercase;
+}
+
+.footer-column p {
+    font: 300 14px/30px Lato, sans-serif;
+    color: #f4f4f4;
+}
+
+.footer-column-2 p {
+    margin-bottom: 36px;
+
+}
+
+.s-twitter {
+    margin-bottom: 36px;
+    background: url("../img/s-sprites.png") no-repeat ;
+    background-position: -36px 0;
+    padding-left: 20px;
+}
+
+#footer-down {
+    background: #3d3d3d;
+}
+
+#footer-down p {
+    font: 300 14px/30px Lato, sans-serif;
+    color: #f4f4f4;
+    padding: 33px 0 33px 0;
+}
+

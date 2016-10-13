@@ -199,12 +199,40 @@ footer {
     text-transform: uppercase;
 }
 
-.footer-column p {
+.footer-column p ,
+.footer-column li {
     font: 300 14px/30px Lato, sans-serif;
     color: #f4f4f4;
+    list-style: none;
 }
 
-.footer-column-2 p {
+.footer-column ul {
+    margin-left: 0;
+}
+
+.footer-column-1 li::before {
+    content: ' ';
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url("../img/s-sprites.png");
+    background-repeat: no-repeat;
+}
+
+.footer-first::before {
+    background-position: 1px 0;
+}
+
+.footer-phone::before {
+    background-position: -10px 0 ;
+}
+
+.footer-message::before {
+    background-position: -23px 0 ;
+}
+
+.footer-column-1 .footer-column-2 p {
     margin-bottom: 36px;
 
 }
@@ -225,4 +253,6 @@ footer {
     color: #f4f4f4;
     padding: 33px 0 33px 0;
 }
+
+
 
